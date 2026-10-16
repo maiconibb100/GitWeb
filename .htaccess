@@ -1,0 +1,6 @@
+Options -Indexes
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^(?:certificates|storage|workspace)(?:/|$) - [F,L,NC]
+RewriteRule ^(?:config|app)\.php$ - [F,L,NC]
+</IfModule>
