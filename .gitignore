@@ -1,6 +1,27 @@
-# Dados operacionais
-storage/
-workspace/
+# Conteudo operacional do WebGit
+# Preserva somente a estrutura vazia necessaria para a aplicacao.
+storage/*
+!storage/backups/
+storage/backups/*
+!storage/backups/.gitkeep
+!storage/locks/
+storage/locks/*
+!storage/locks/.gitkeep
+!storage/logs/
+storage/logs/*
+!storage/logs/.gitkeep
+!storage/profiles/
+storage/profiles/*
+!storage/profiles/.gitkeep
+!storage/state/
+storage/state/*
+!storage/state/.gitkeep
+!storage/tmp/
+storage/tmp/*
+!storage/tmp/.gitkeep
+
+workspace/*
+!workspace/.gitkeep
 
 # Backups e temporarios
 *.bak
